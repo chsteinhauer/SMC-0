@@ -51,7 +51,7 @@ It is an enervating process for a music producer to ensure that their track soun
 
 ### 2. september 2022
 
-* We brainstormed some companies with products that could be interesting to look into. Our first choice was Ozone from the company Izontone.
+* We brainstormed some companies with products that could be interesting to look into. Our first choice was Ozone from the company Izotope.
 * First draft of problem description is formulized.
 
 ### 5. september 2022
