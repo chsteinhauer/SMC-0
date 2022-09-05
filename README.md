@@ -22,19 +22,26 @@
 
 It is an enervating process for a music producer to detect resonant frequencies & ensure that their track sounds good in all sound systems and contexts, and lives up to a certain standard of commercialized music in the music industry.
 
-It is an enervating process for a music producer to ensure that their track sounds good in all sound systems and contexts, and lives up to a certain standard of commercialized music in the music industry.
-
 
 ### Problem description:
 
-* How can we create a VST plugin that detects resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry? 
+* How can we create a VST plugin that detects unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry? 
 
 <!--* Make music sound good
 * How can we implement a tool to make the mastering process easier for music producers in the final stages of their workflow-->
 
+### Target user group
+
+Music producers and all who works with audio post-production.
+
 ### Pains
 
-
+* Current tools for finding and removing unwanted resonance frequencies are not particually intuitive.
+* It is a time consuming task to find and remove unwanted frequencies.
+* It is difficult to only target the unwanted overtones when adjusting the resonance.
+* Ensuring the audio is commercializable is complex.
+* Less experienced producers have a hard time to get into the the audio refinement process because of the complexity.
+* Listeners may have an unpleasant experience if the audio is not refined correctly.
 
 ## Requirements
 
