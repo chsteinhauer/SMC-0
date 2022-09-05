@@ -11,6 +11,10 @@ A lot of specialized software in acoustic analysis.
 
 Ozone
 
+### Oeksound
+
+soothe2
+
 ### Bose
 
 Bose Frames
@@ -22,10 +26,6 @@ Bose Frames
 ## Product
 
 Ozone 🎉
-
-## Oeksound
-
-soothe2
 
 ## Problem
 
