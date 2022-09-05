@@ -7,7 +7,7 @@
 
 A lot of specialized software in acoustic analysis.
 
-### Izotone
+### Izotope
 
 Ozone
 
@@ -22,6 +22,10 @@ Bose Frames
 ## Product
 
 Ozone 🎉
+
+## Oeksound
+
+soothe2
 
 ## Problem
 
