@@ -25,7 +25,7 @@ It is an enervating process for a music producer to ensure that their track soun
 
 ### Problem description:
 
-* How can the mastering process be simplified in the workflow of music producers, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
+* How can we create a VST plugin that detects resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry? 
 
 <!--* Make music sound good
 * How can we implement a tool to make the mastering process easier for music producers in the final stages of their workflow-->
