@@ -16,7 +16,7 @@
 
 ### Chosen product
 
-**Ozone:** A tool to make the mastering process easier for music producers in the final stages of their workflow.
+**Soothe2:** A VST plugin that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow.
 
 ## Problem
 
