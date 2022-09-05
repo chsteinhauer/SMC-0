@@ -1,5 +1,7 @@
 
-# SMC-0
+# SMC-0 Project
+
+
 
 ## Companies and products
 
@@ -44,5 +46,16 @@ It is an enervating process for a music producer to ensure that their track soun
 
 ## Hack the product (reverse engineer)
 
+
+## Project timeline
+
+### 2. september 2022
+
+* We brainstormed some companies with products that could be interesting to look into. Our first choice was Ozone from the company Izontone.
+* First draft of problem description is formulized.
+
+### 5. september 2022
+
+* We changed our product to **soothe2** by Oeksound, as we concluded that Ozone was too complex regarding all its features that are outside our scope. **soothe2** attempts to solve the same problem, but is much simpler in its approach, and only focus on the refinement of ressonance in the mastering process.
 
 
