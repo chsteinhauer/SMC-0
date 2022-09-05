@@ -20,6 +20,8 @@
 
 ## Problem
 
+It is an enervating process for a music producer to detect resonant frequencies & ensure that their track sounds good in all sound systems and contexts, and lives up to a certain standard of commercialized music in the music industry.
+
 It is an enervating process for a music producer to ensure that their track sounds good in all sound systems and contexts, and lives up to a certain standard of commercialized music in the music industry.
 
 
