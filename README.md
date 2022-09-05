@@ -45,8 +45,12 @@ Music producers and all who works with audio post-production.
 
 ## Requirements
 
+### Non-functional
+
 * Make it commercilizable
 * Make it more simple
+
+### Functional
 * 
 
 ## Proposed iterations and evaluations
