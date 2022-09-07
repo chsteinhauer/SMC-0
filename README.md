@@ -67,6 +67,23 @@ Music producers and all who works with audio post-production.
 * Must not be heavily demanding of the CPU
 
 ## Milestones
+### Milestone 1:
+* Determine if the concept/idea/product is possible.
+### Milestone 2:
+* Refine concept/product/idea in respect to the findings made in milestone 1.
+### Milestone 3:
+* Initial prototyping & concept/idea/product validation.
+### Milestone 4:
+* Design software architecture
+### Milestone 5:
+* Implement a resonant frequency detection algoritm
+### Milestone 6: 
+* Implement sound processing that reduce/remove/smoothens a list of given frequencies in amplitude.
+### Milestone 7: 
+* Implement modification UI
+### Milestone 8:
+* Combine functionality & UI
+
 ### Tasks
 
 **Analyze**
