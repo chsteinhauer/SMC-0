@@ -85,11 +85,11 @@ Music producers and all who works with audio post-production.
 
 * We changed our product to **soothe2** by Oeksound, as we concluded that Ozone was too complex regarding all its features that are outside our scope. **soothe2** attempts to solve the same problem, but is much simpler in its approach, and only focus on the refinement of ressonance in the mastering process.
 
-* We brainstormed pains and gains and created requirements from these outcomes.
+* We brainstormed pains and gains and created requirements from these.
 
 ### 7. september 2022
 
-* We refined the requirements 
+* We refined the requirements
 
 * Planning the project by braking it down to its tasks
 
