@@ -80,9 +80,7 @@ Music producers and all who works with audio post-production.
 #### Milestone 6: 
 * Implement sound processing that reduce/remove/smoothens a list of given frequencies in amplitude.
 #### Milestone 7: 
-* Implement modification UI
-#### Milestone 8:
-* Combine functionality & UI
+* Implement UI & funcionality
 
 ### Tasks
 
