@@ -67,23 +67,30 @@ Music producers and all who works with audio post-production.
 * Must not be heavily demanding of the CPU
 
 ## Milestones
-# Tasks
+### Tasks
 
-ANALYZE
-* Analyse how to implement a removal of resonance and sibilance sound in sound processing.
-* Research how to detect resonant frequencies in sound processing.
-* Research how to reduce the amplitude of the detected resonant frequencies.
-* Investigate user needs.
+**Analyze**
+
+* Investigate user pains and needs in the refinemet process in sound post-production.
+* Research how to utilize machine learning to detect problematic resonant frequencies and sibilance sounds in sound data.
+* Research how the problematic resonant frequencies and sibilance sounds can and should be modified.
+* Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.
 * Collect datasets of occurrences of resonance in sound.
-* Research how to modify a sound in real-time with low latency.
-* Research how to apply artificial intelligence in sound processing in real-time.
-* Determine which variable in the algorithm should be customizable for the user.
 
-DESIGN
-* Design UI of product.
-* Create protype of concept/product/idea.
 
-IMPLEMENTATION
+**Design**
+
+* Create user stories.
+* Create initial sketches of user interface.
+* Create wireframes of user interface.
+* Create prototype of user interface with basic functionality flow.
+* Test prototype on target users to get feedback.
+* Revisit user stories and prototype based on user feedback.
+* Determine what should be configurable by the user in how the algorithm modifies the selected frequencies.
+
+**Implementation**
+
+* 
 * Implement the dynamic variables that will modify how the algorithm process the sound.
 * Implement customizable nobs that communicate with the algorithms dynamic variables.
 * Implement stereo compatibility to specify where in the stereo field the processing should happen.
@@ -93,7 +100,8 @@ IMPLEMENTATION
 * Implement algorithm with UI.
 * Implement UI.
 
-TEST
+**Test**
+
 * Test prototype.
 * Test UI of product.
 * Test algorithm in use with known occurrences of sound.
