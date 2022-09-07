@@ -82,23 +82,56 @@ Music producers and all who works with audio post-production.
 
 * Create user stories.
 * Create initial sketches of user interface.
+    * Main interface with an interactive bandpass
+    * A control panel to customize bandpass shape and settings
+    * A control panel to customize how the resonants should be modified
+
 * Create wireframes of user interface.
 * Create prototype of user interface with basic functionality flow.
 * Test prototype on target users to get feedback.
 * Revisit user stories and prototype based on user feedback.
 * Determine what should be configurable by the user in how the algorithm modifies the selected frequencies.
 
+Import data.
+Main page.
+Configuration panel.
+Settings(?).
+
+
 **Implementation**
 
-* 
-* Implement the dynamic variables that will modify how the algorithm process the sound.
-* Implement customizable nobs that communicate with the algorithms dynamic variables.
-* Implement stereo compatibility to specify where in the stereo field the processing should happen.
+* Describe the software architecture
+    * Describe interface for bandpass update events
+    * Describe interface for configuration update events
+    * Describe store interface for caching the current customization settings (variables), current imported sound file(s) etc.
+
+* Implement the detection algorithm to detect unwanted resonant frequencies
+    * Create unit tests
+    * Implement function that determines if a resonant is problematic or not based on variables
+    * Import chosen machine learning library and setup conditions and variables
+    * Train the detection algorithm with training data set
+
+* Implement the modification algorithm to modify resonant frequencies based on configured conditions
+    * Create unit tests
+    * Implement function that copies and prepares the data to be modified
+    * Implement function to modify the data based on variables (preset/user configuration) - only modify the changed part of 
+
+* Implement user interface
+    * Implement main interface with an interactive bandpass
+    * Implement bandpass control panel
+    * Implement configuration control panel
+
+* Implement functionality
+    * Throw events when a control component is updated
+
+
+<!--
 * Implement bypass button for the user in order to compare the modified sound with the raw sound.
 * Implement customizable bandpass filters in order to specify a desired range in the frequency spectrum to apply the processing.
 * Train AI algorithm in order to improve its detection rate.
 * Implement algorithm with UI.
 * Implement UI.
+-->
 
 **Test**
 
