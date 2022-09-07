@@ -91,27 +91,21 @@ Music producers and all who works with audio post-production.
 * Test prototype on target users to get feedback.
 * Revisit user stories and prototype based on user feedback.
 * Determine what should be configurable by the user in how the algorithm modifies the selected frequencies.
-
-Import data.
-Main page.
-Configuration panel.
-Settings(?).
-
-
-**Implementation**
-
 * Describe the software architecture
     * Describe interface for bandpass update events
     * Describe interface for configuration update events
     * Describe store interface for caching the current customization settings (variables), current imported sound file(s) etc.
 
-* Implement the detection algorithm to detect unwanted resonant frequencies
+
+**Implementation**
+
+* Implement the detection algorithm to detect unwanted resonant frequencies, returns a list of adresses
     * Create unit tests
-    * Implement function that determines if a resonant is problematic or not based on variables
+    * Implement function that determines if a resonant is problematic or not based on variables, returns a boolean
     * Import chosen machine learning library and setup conditions and variables
     * Train the detection algorithm with training data set
 
-* Implement the modification algorithm to modify resonant frequencies based on configured conditions
+* Implement the modification algorithm to modify resonant frequencies based on configured conditions, returns the updated sound data
     * Create unit tests
     * Implement function that copies and prepares the data to be modified
     * Implement function to modify the data based on variables (preset/user configuration) - only modify the changed part of 
@@ -122,7 +116,14 @@ Settings(?).
     * Implement configuration control panel
 
 * Implement functionality
-    * Throw events when a control component is updated
+    * Detection
+        * When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal
+        * Then run modification algorithm with the updated variables
+        * Save the modified data and variables in the store
+    * Modification
+        * Throw events when a control component is updated
+        * Catch update event and run the modification algorithm with the updated variables
+        * Save the modified data and variables in the store
 
 
 <!--
