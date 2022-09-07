@@ -49,9 +49,19 @@ Music producers and all who works with audio post-production.
 
 * Make it commercilizable
 * Make it more simple
+* Intuitive
+* CPU soothing
+* Fast
 
 ### Functional
-* 
+* Able to Analyse the frequencies of the sound in order to find resonant frequencies
+* Smoothen / remove the detected resonant frequencies.
+* Only affect frequencies where there is an occurence of resonance.
+* Enable modification of the processing factors.
+* Enable focus of the frequency range on where the processing should interact.
+* Compare the processed and unprocessed sound.
+* Add pre-sets of know occurances of resonance and similar use-cases in the algorithm.
+
 
 ## Proposed iterations and evaluations
 
