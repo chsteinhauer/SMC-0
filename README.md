@@ -149,14 +149,15 @@ Music producers and all who works with audio post-production.
 * Train AI algorithm in order to improve its detection rate.
 * Implement algorithm with UI.
 * Implement UI.
+
+* Test prototype.
+* Test UI of product.
 -->
 
 **Test**
 
-* Test prototype.
-* Test UI of product.
-* Test algorithm in use with known occurrences of sound.
-* Test CPU usage of product.
+* Run benchmark tests of the algorithm to test the runtime and memory usage
+* Do usability test on target user participants for feedback
 
 ## Proposed iterations and evaluations
 
