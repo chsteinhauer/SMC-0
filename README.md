@@ -45,14 +45,27 @@ Music producers and all who works with audio post-production.
 
 ## Requirements
 
-### Non-functional
-
-* Make it commercilizable
-* Make it more simple
-
 ### Functional
 
-* 
+<!-- Something the system must do (will fail if not) -->
+
+* Must be able to detect problematic resonant frequencies in sound data
+* Must be able to smoothen/remove the detected resonant frequencies
+* Must be able to target only the undesirable overtones when modifying resonant frequencies
+* User must be able to configure how the algorithm modifies the target resonants
+* Must be able to compare the processed and unprocessed sound
+* Must be able to select from a span of default presets which serves as an entry proposal of resonance soothing in different categories
+
+### Non-functional
+
+<!-- Requirements that describe how the system works -->
+
+* Must be very user friendly - a user must intuitively understand the basic functionality when using the product for the first time
+* Must be fast and reliable, response delay must be brought to a minimum for a better user experience
+* Must be intuitive for the user to select and distinguish the range of frequencies that are affected
+* Calculation processing must be done in real time when using the product
+* Must not be heavily demanding of the CPU
+
 
 ## Proposed iterations and evaluations
 
