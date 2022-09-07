@@ -181,6 +181,6 @@ Music producers and all who works with audio post-production.
 
 * We refined the requirements
 
-* Planning the project by braking it down to its tasks
+* Planning the project by breaking it down into milestones and tasks
 
 
