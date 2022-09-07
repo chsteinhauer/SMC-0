@@ -66,10 +66,40 @@ Music producers and all who works with audio post-production.
 * Calculation processing must be done in real time when using the product
 * Must not be heavily demanding of the CPU
 
+## Milestones
+# Tasks
+
+ANALYZE
+* Analyse how to implement a removal of resonance and sibilance sound in sound processing.
+* Research how to detect resonant frequencies in sound processing.
+* Research how to reduce the amplitude of the detected resonant frequencies.
+* Investigate user needs.
+* Collect datasets of occurrences of resonance in sound.
+* Research how to modify a sound in real-time with low latency.
+* Research how to apply artificial intelligence in sound processing in real-time.
+* Determine which variable in the algorithm should be customizable for the user.
+
+DESIGN
+* Design UI of product.
+* Create protype of concept/product/idea.
+
+IMPLEMENTATION
+* Implement the dynamic variables that will modify how the algorithm process the sound.
+* Implement customizable nobs that communicate with the algorithms dynamic variables.
+* Implement stereo compatibility to specify where in the stereo field the processing should happen.
+* Implement bypass button for the user in order to compare the modified sound with the raw sound.
+* Implement customizable bandpass filters in order to specify a desired range in the frequency spectrum to apply the processing.
+* Train AI algorithm in order to improve its detection rate.
+* Implement algorithm with UI.
+* Implement UI.
+
+TEST
+* Test prototype.
+* Test UI of product.
+* Test algorithm in use with known occurrences of sound.
+* Test CPU usage of product.
 
 ## Proposed iterations and evaluations
-
-## Milestones
 
 ## Hack the product (reverse engineer)
 
