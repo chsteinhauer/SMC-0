@@ -195,13 +195,13 @@ Implementation of functionality behind the UI to utilize the algorithms       | 
 
 ## Proposed iterations and evaluations
 ### Iterations
-* Prototype
-* Resonant frequency detection
-* Sound processing on found resonant frequencies
-* Processing algorithm modification
-* Frequency bandpass modification on algorithm
-* UI visualization
-* Pre-sets
+* I1 Prototype
+* I2 Resonant frequency detection
+* I3 Sound processing on found resonant frequencies
+* I4 Processing algorithm modification
+* I5 Frequency bandpass modification on algorithm
+* I6 UI visualization
+* I7 Pre-sets
 
 ## Timeline
 
