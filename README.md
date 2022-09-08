@@ -103,6 +103,14 @@ Music producers and all who works with audio post-production.
 
 
 ## Proposed iterations and evaluations
+### Iterations
+* I1 Prototype
+* I2 Resonant frequency detection
+* I3 Sound processing on found resonant frequencies
+* I4 Processing algorithm modification
+* I5 Frequency bandpass modification on algorithm
+* I6 UI visualization
+* I7 Pre-sets
 
 ## Timeline
 
