@@ -92,8 +92,7 @@ Music producers and in general all who works with audio in post-production.
 | ***Milestone 8:*** <p>Testing and final adjustments</p>      | Final tests and preparation for deployment to production       | <ul><li>Usability test of the overall product and interview target user participants for feedback</li><li>Run benchmark tests of the algorithm to test the runtime and memory usage</li><li>Use test feedback to plan further milestones if necessary</li></ul>
 
 ## Planning
-![SMC-0-Gantt](https://user-images.githubusercontent.com/43750048/189130160-63e48fb5-a3dd-4ad3-86ac-267207feb918.jpg)
-
+<img width="880" alt="SMC-0-Gantt" src="https://user-images.githubusercontent.com/43750048/189137403-6bea0f9c-8dfc-4df6-82bd-b40ee74ca04f.png">
 
 ## Appendix
 
