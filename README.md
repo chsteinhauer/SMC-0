@@ -16,7 +16,6 @@
 
 ## Companies and products
 
-<section>
 
 * **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
 
@@ -32,30 +31,7 @@
 **Soothe2:** A VST plugin that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow.
 
 
-<!-- 
-<figure>
-    <video title="Video of Soothe2 in use" 
-        autoplay="" 
-        loop="loop"  
-        class="w-100 blue-shadow" 
-        muted="">
-            <source src="https://oeksound.com/uploads/soothe_harshness_save_time.mp4"       
-            type="video/mp4">Your browser does not support video.
-</video>
-    <figcaption>
-        <b>soothe2</b> in action. <a href="https://oeksound.com/uploads/soothe_harshness_save_time.mp4">Link to source.</a>
-    </figcaption>
-</figure> -->
-
-
-
-
 https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
-
-
-
-
-</section>
 
 
 ## Problem
@@ -115,14 +91,26 @@ Music producers and all who works with audio post-production.
 
 | Milestones      | Outcome |   Tasks |
 | ----------- | ----------- | ----------- |
-| ***Milestone 1:*** <p>Conceptualizing</p>      | Determine if the concept/idea/product is possible based on requirements.       | <ul><li>Investigate user pains and needs in the refinemet process in sound post-production.</li><li>Create user stories.</li></ul> |
-| ***Milestone 2:*** <p>Prototyping</p>      | Design and prototype of product.       | <ul><li></li></ul>
-| ***Milestone 3:*** <p>Initial implementation</p>   | Design of software architecture.    | <ul><li></li></ul>
-| ***Milestone 4:*** <p>Detection algorithm</p>      | Implementation of a resonant frequency detection algoritm.       | <ul><li>Research how to most efficiently and accurately detect problematic resonant frequencies and sibliance sounds in sound data.</li><li>Collect testdata of occurrences of resonance in sound.</li></ul>
-| ***Milestone 5:*** <p>Sound processing</p>   | Text        | <ul><li>Research how the problematic resonant frequencies and sibilance sounds can and should be modified.</li><li>Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.</li></ul>
-| ***Milestone 6:*** <p>UI</p>      | Title       | <ul><li></li></ul>
-| ***Milestone 7:*** <p>Functionality</p>      | Title       | <ul><li></li></ul>
+| ***Milestone 1:*** <p>Conceptualizing</p>      | Determine if the concept/idea/product is possible based on requirements.       | <ul><li>Investigate user pains and needs.</li><li>Create user stories.</li><li>Create initial sketches of user interface.</li><ul><li>Main panel with an interactive bandpass</li><li>A control panel to customize bandpass shape and settings</li><li>A control panel to customize how the resonants should be modified</li></ul></ul> |
+| ***Milestone 2:*** <p>Prototyping</p>      | Design and prototype of product.       | <ul><li>Create wireframes of user interface.</li><li>Determine what should be configurable by the user in how the algorithm modifies the selected frequencies.</li><li>Create prototype of user interface with basic functionality flow.</li><li>Test prototype on target users to get feedback.</li></ul>
+| ***Milestone 3:*** <p>Initial implementation</p>   | Design of software architecture.    | <ul><li>Revisit user stories and prototype based on user feedback.</li><li>Describe the software architecture</li><ul><li>Describe interface for bandpass update events</li><li>Describe interface for configuration update events</li><li>Describe store interface for caching the current customization settings</li></ul></ul>
+| ***Milestone 4:*** <p>Detection algorithm</p>      | Implementation of a resonant frequency detection algoritm.       | <ul><li>Research how to most efficiently and accurately detect problematic resonant frequencies and sibliance sounds in sound data.</li><li>Collect testdata of occurrences of resonance in sound.</li><li> Implement the detection algorithm to detect unwanted resonant frequencies, returns a list of adresses of where the resonances occures.</li><li>Create unit tests</li></ul>
+| ***Milestone 5:*** <p>Sound processing</p>   | Implementation sound processing that reduce/remove/smoothens a list of given frequencies in amplitude.        | <ul><li>Research how the problematic resonant frequencies and sibilance sounds can and should be modified.</li><li>Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.</li><li>Implement the modification algorithm to modify resonant frequencies based on configured conditions, returns the updated sound data.</li><li>Create unit tests</li></ul>
+| ***Milestone 6:*** <p>UI</p>      | Implementation of the UI based on the validated wireframes/prototypes      | <ul><li>Implement main panel with an interactive bandpass</li><li>Implement bandpass control panel</li><li>Implement configuration control panel</li><li>Create End-2-End tests</li></ul>
+| ***Milestone 7:*** <p>Functionality</p>      | 
+Implementation of functionality behind the UI to utilize the algorithms       | <ul><li>Implement detection functionality</li><ul><li>When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal</li><li>Then run modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul><li>Implement configuration functionality</li><ul><li>Throw events when a control component is updated</li><li>Catch update event and run the modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul></ul>
 | ***Milestone 8:*** <p>Testing</p>      | Title       | <ul><li></li></ul>
+
+
+* Implement functionality
+    * Implement detection functionality
+        * When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal
+        * Then run modification algorithm with the updated variables
+        * Save the modified data and variables in the store
+    * Implement configuration functionality
+        * Throw events when a control component is updated
+        * Catch update event and run the modification algorithm with the updated variables
+        * Save the modified data and variables in the store
 
 
 <!-- 
@@ -157,7 +145,7 @@ Music producers and all who works with audio post-production.
 
 * Create user stories.
 * Create initial sketches of user interface.
-    * Main interface with an interactive bandpass
+    * Main panel with an interactive bandpass
     * A control panel to customize bandpass shape and settings
     * A control panel to customize how the resonants should be modified
 
@@ -186,16 +174,16 @@ Music producers and all who works with audio post-production.
     * Implement function to modify the data based on variables (preset/user configuration) - only modify the changed part of 
 
 * Implement user interface
-    * Implement main interface with an interactive bandpass
+    * Implement main panel with an interactive bandpass
     * Implement bandpass control panel
     * Implement configuration control panel
 
 * Implement functionality
-    * Detection
+    * Implement detection functionality
         * When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal
         * Then run modification algorithm with the updated variables
         * Save the modified data and variables in the store
-    * Modification
+    * Implement configuration functionality
         * Throw events when a control component is updated
         * Catch update event and run the modification algorithm with the updated variables
         * Save the modified data and variables in the store
