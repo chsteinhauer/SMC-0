@@ -96,102 +96,11 @@ Music producers and all who works with audio post-production.
 | ***Milestone 3:*** <p>Initial implementation</p>   | Design of software architecture.    | <ul><li>Revisit user stories and prototype based on user feedback.</li><li>Describe the software architecture</li><ul><li>Describe interface for bandpass update events</li><li>Describe interface for configuration update events</li><li>Describe store interface for caching the current customization settings</li></ul></ul>
 | ***Milestone 4:*** <p>Detection algorithm</p>      | Implementation of a resonant frequency detection algoritm.       | <ul><li>Research how to most efficiently and accurately detect problematic resonant frequencies and sibliance sounds in sound data.</li><li>Collect testdata of occurrences of resonance in sound.</li><li> Implement the detection algorithm to detect unwanted resonant frequencies, returns a list of adresses of where the resonances occures.</li><li>Create unit tests</li></ul>
 | ***Milestone 5:*** <p>Sound processing</p>   | Implementation sound processing that reduce/remove/smoothens a list of given frequencies in amplitude.        | <ul><li>Research how the problematic resonant frequencies and sibilance sounds can and should be modified.</li><li>Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.</li><li>Implement the modification algorithm to modify resonant frequencies based on configured conditions, returns the updated sound data.</li><li>Create unit tests</li></ul>
-| ***Milestone 6:*** <p>UI</p>      | Implementation of the UI based on the validated wireframes/prototypes      | <ul><li>Implement main panel with an interactive bandpass</li><li>Implement bandpass control panel</li><li>Implement configuration control panel</li><li>Create End-2-End tests</li></ul>
-| ***Milestone 7:*** <p>Functionality</p>      | 
-Implementation of functionality behind the UI to utilize the algorithms       | <ul><li>Implement detection functionality</li><ul><li>When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal</li><li>Then run modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul><li>Implement configuration functionality</li><ul><li>Throw events when a control component is updated</li><li>Catch update event and run the modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul></ul>
-| ***Milestone 8:*** <p>Testing</p>      | Title       | <ul><li></li></ul>
+| ***Milestone 6:*** <p>UI</p>      | Implementation of the UI based on the validated wireframes/prototypes      | <ul><li>Implement main panel with an interactive bandpass</li><li>Implement bandpass control panel</li><li>Implement configuration control panel</li><li>Create End-2-End tests</li><li>Create demo and do a usability test on target user participants</li></ul>
+| ***Milestone 7:*** <p>Functionality</p>    | Implementation of functionality behind the UI to utilize the algorithms       | <ul><li>Implement detection functionality</li><ul><li>When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal</li><li>Then run modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul><li>Implement configuration functionality</li><ul><li>Throw events when a control component is updated</li><li>Catch update event and run the modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul></ul>
+| ***Milestone 8:*** <p>Testing and final adjustments</p>      | Final tests and preparation for deployment to production       | <ul><li>Usability test of the overall product and interview target user participants for feedback</li><li>Run benchmark tests of the algorithm to test the runtime and memory usage</li><li>Use test feedback to plan further milestones if necessary</li></ul>
 
 
-* Implement functionality
-    * Implement detection functionality
-        * When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal
-        * Then run modification algorithm with the updated variables
-        * Save the modified data and variables in the store
-    * Implement configuration functionality
-        * Throw events when a control component is updated
-        * Catch update event and run the modification algorithm with the updated variables
-        * Save the modified data and variables in the store
-
-
-<!-- 
-#### Milestone 1:
-* Determine if the concept/idea/product is possible.
-#### Milestone 2:
-* Refine concept/product/idea in respect to the findings made in milestone 1.
-#### Milestone 3:
-* Initial prototyping & concept/idea/product validation.
-#### Milestone 4:
-* Design software architecture
-#### Milestone 5:
-* Implement a resonant frequency detection algoritm
-#### Milestone 6: 
-* Implement sound processing that reduce/remove/smoothens a list of given frequencies in amplitude.
-#### Milestone 7: 
-* Implement UI & funcionality -->
-
-
-### Tasks
-
-**Analyze**
-
-* Investigate user pains and needs in the refinemet process in sound post-production.
-* Research how to utilize machine learning to detect problematic resonant frequencies and sibilance sounds in sound data.
-* Research how the problematic resonant frequencies and sibilance sounds can and should be modified.
-* Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.
-* Collect datasets of occurrences of resonance in sound.
-
-
-**Design**
-
-* Create user stories.
-* Create initial sketches of user interface.
-    * Main panel with an interactive bandpass
-    * A control panel to customize bandpass shape and settings
-    * A control panel to customize how the resonants should be modified
-
-* Create wireframes of user interface.
-* Create prototype of user interface with basic functionality flow.
-* Test prototype on target users to get feedback.
-* Revisit user stories and prototype based on user feedback.
-* Determine what should be configurable by the user in how the algorithm modifies the selected frequencies.
-* Describe the software architecture
-    * Describe interface for bandpass update events
-    * Describe interface for configuration update events
-    * Describe store interface for caching the current customization settings (variables), current imported sound file(s) etc.
-
-
-**Implementation**
-
-* Implement the detection algorithm to detect unwanted resonant frequencies, returns a list of adresses
-    * Create unit tests
-    * Implement function that determines if a resonant is problematic or not based on variables, returns a boolean
-    * Import chosen machine learning library and setup conditions and variables
-    * Train the detection algorithm with training data set
-
-* Implement the modification algorithm to modify resonant frequencies based on configured conditions, returns the updated sound data
-    * Create unit tests
-    * Implement function that copies and prepares the data to be modified
-    * Implement function to modify the data based on variables (preset/user configuration) - only modify the changed part of 
-
-* Implement user interface
-    * Implement main panel with an interactive bandpass
-    * Implement bandpass control panel
-    * Implement configuration control panel
-
-* Implement functionality
-    * Implement detection functionality
-        * When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal
-        * Then run modification algorithm with the updated variables
-        * Save the modified data and variables in the store
-    * Implement configuration functionality
-        * Throw events when a control component is updated
-        * Catch update event and run the modification algorithm with the updated variables
-        * Save the modified data and variables in the store
-
-**Test**
-
-* Run benchmark tests of the algorithm to test the runtime and memory usage
-* Do usability test on target user participants for feedback
 
 ## Proposed iterations and evaluations
 
