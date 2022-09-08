@@ -1,9 +1,22 @@
 
+<style>
+    section {
+        /* margin: 7px 0;
+        padding-left: 10px;
+        border-left: 3px solid gray;
+        border-radius: 0px; */
+    }
+
+    video {
+        max-width: 100%;
+    }
+</style>
+
 # SMC-0 Project
 
-
-
 ## Companies and products
+
+<section>
 
 * **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
 
@@ -17,6 +30,26 @@
 ### Chosen product
 
 **Soothe2:** A VST plugin that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow.
+
+
+
+<figure>
+    <video title="Video of Soothe2 in use" 
+        autoplay="" 
+        loop="loop"  
+        class="w-100 blue-shadow" 
+        muted="">
+            <source src="https://oeksound.com/uploads/soothe_harshness_save_time.mp4"       
+            type="video/mp4">Your browser does not support video.
+</video>
+    <figcaption>
+        <b>soothe2</b> in action. <a href="https://oeksound.com/uploads/soothe_harshness_save_time.mp4">Link to source.</a>
+    </figcaption>
+</figure>
+
+
+</section>
+
 
 ## Problem
 
@@ -67,6 +100,20 @@ Music producers and all who works with audio post-production.
 * Must not be heavily demanding of the CPU
 
 ## Milestones
+
+| Milestones      | Outcome |   Tasks |
+| ----------- | ----------- | ----------- |
+| ***Milestone 1:*** <p>Conceptualizing</p>      | Determine if the concept/idea/product is possible based on requirements.       | <ul><li>Investigate user pains and needs in the refinemet process in sound post-production.</li><li>Create user stories.</li></ul> |
+| ***Milestone 2:*** <p>Prototyping</p>      | Design and prototype of product.       |
+| ***Milestone 3:*** <p>Initial implementation</p>   | Text        |
+| ***Milestone 4:*** <p>AI</p>      | Title       |
+| ***Milestone 5:*** <p>Sound processing</p>   | Text        |
+| ***Milestone 6:*** <p>UI</p>      | Title       |
+| ***Milestone 7:*** <p>Functionality</p>      | Title       |
+| ***Milestone 8:*** <p>Testing</p>      | Title       |
+
+
+
 #### Milestone 1:
 * Determine if the concept/idea/product is possible.
 #### Milestone 2:
@@ -82,9 +129,12 @@ Music producers and all who works with audio post-production.
 #### Milestone 7: 
 * Implement UI & funcionality
 
+
 ### Tasks
 
 **Analyze**
+
+<ul> <li>Research how to utilize machine learning to detect problematic resonant frequencies and sibilance sounds in sound data.</li><li>Research how the problematic resonant frequencies and sibilance sounds can and should be modified.</li><li>Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.</li><li>Collect datasets of occurrences of resonance in sound.</li></ul>
 
 * Investigate user pains and needs in the refinemet process in sound post-production.
 * Research how to utilize machine learning to detect problematic resonant frequencies and sibilance sounds in sound data.
@@ -140,18 +190,6 @@ Music producers and all who works with audio post-production.
         * Catch update event and run the modification algorithm with the updated variables
         * Save the modified data and variables in the store
 
-
-<!--
-* Implement bypass button for the user in order to compare the modified sound with the raw sound.
-* Implement customizable bandpass filters in order to specify a desired range in the frequency spectrum to apply the processing.
-* Train AI algorithm in order to improve its detection rate.
-* Implement algorithm with UI.
-* Implement UI.
-
-* Test prototype.
-* Test UI of product.
--->
-
 **Test**
 
 * Run benchmark tests of the algorithm to test the runtime and memory usage
@@ -159,26 +197,15 @@ Music producers and all who works with audio post-production.
 
 ## Proposed iterations and evaluations
 
-## Hack the product (reverse engineer)
+## Timeline
 
 
-## Project timeline
-
-### 2. september 2022
-
-* We brainstormed some companies with products that could be interesting to look into. Our first choice was Ozone from the company Izotope.
-* First draft of problem description is formulized.
-
-### 5. september 2022
-
-* We changed our product to **soothe2** by Oeksound, as we concluded that Ozone was too complex regarding all its features that are outside our scope. **soothe2** attempts to solve the same problem, but is much simpler in its approach, and only focus on the refinement of ressonance in the mastering process.
-
-* We brainstormed pains and gains and created requirements from these.
-
-### 7. september 2022
-
-* We refined the requirements
-
-* Planning the project by breaking it down into milestones and tasks
+| Date         | Activities                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| *02/09/2022* | We brainstormed some companies with products that could be interesting to look into. Our first choice was Ozone from the company Izotope. Also, first draft of problem description is formulized.                                                                                                                                                                                                    |
+| *05/09/2022* | We changed our product to **soothe2** by Oeksound, as we concluded that Ozone was too complex regarding all its features that are outside our scope. **soothe2** attempts to solve the same problem, but is much simpler in its approach, and only focus on the refinement of ressonance in the mastering process. Furthermore, we brainstormed pains and gains and created requirements from these. |
+| *07/09/2022* | We refined the requirements. Planning the project by breaking it down into milestones and tasks. This was send to our supervisor for feedback.                                                                                                                                                                                                                                                       |
+| *08/09/2022* | Prioritized the milestones and time estimated tasks. This was setup in a gannt diagram. Here we reprioritized tasks also when we had a better overview of the milestones.                                                                                                                                                                                                                            |
+| *09/09/2022* | stuff                                                                                                                                                                                                                                                                                                                                                                                                |
 
 
