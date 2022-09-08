@@ -14,8 +14,26 @@
 
 # SMC-0 Project
 
-## Companies and products
+## Outline
 
+* Product
+  * Potential companies and products
+  * Chosen product
+* Problem
+  * Background
+  * Problem description
+  * Target user group
+  * User pains
+* Requirements
+  * Functional
+  * Non-functional
+* Tools
+* Milestones
+* Timeline
+
+## Product
+
+### Potential companies and products
 
 * **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
 
@@ -28,29 +46,27 @@
 
 ### Chosen product
 
-**Soothe2:** A VST plugin that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow.
-
+**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
 
 https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
 
 
 ## Problem
 
+### Background
+
 It is an enervating process for a music producer to detect resonant frequencies & ensure that their track sounds good in all sound systems and contexts, and lives up to a certain standard of commercialized music in the music industry.
 
 
 ### Problem description:
 
-* How can we create a VST plugin that detects unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry? 
-
-<!--* Make music sound good
-* How can we implement a tool to make the mastering process easier for music producers in the final stages of their workflow-->
+* How can we create an intuitive VST plugin that detects unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
 
 ### Target user group
 
-Music producers and all who works with audio post-production.
+Music producers and in general all who works with audio in post-production.
 
-### Pains
+### User pains
 
 * Current tools for finding and removing unwanted resonance frequencies are not particually intuitive.
 * It is a time consuming task to find and remove unwanted frequencies.
