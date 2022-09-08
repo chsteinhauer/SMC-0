@@ -129,6 +129,9 @@ Implementation of functionality behind the UI to utilize the algorithms       | 
 #### Milestone 7: 
 * Implement UI & funcionality -->
 
+### Gantt
+[SMC-0-Gantt.pdf](https://github.com/chsteinhauer/SMC-0/files/9526998/SMC-0-Gantt.pdf)
+
 
 ### Tasks
 
