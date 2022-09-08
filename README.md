@@ -1,5 +1,5 @@
 
-<style>
+<!-- <style>
     section {
         /* margin: 7px 0;
         padding-left: 10px;
@@ -10,7 +10,7 @@
     video {
         max-width: 100%;
     }
-</style>
+</style> -->
 
 # SMC-0 Project
 
@@ -32,7 +32,7 @@
 **Soothe2:** A VST plugin that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow.
 
 
-
+<!-- 
 <figure>
     <video title="Video of Soothe2 in use" 
         autoplay="" 
@@ -45,7 +45,7 @@
     <figcaption>
         <b>soothe2</b> in action. <a href="https://oeksound.com/uploads/soothe_harshness_save_time.mp4">Link to source.</a>
     </figcaption>
-</figure>
+</figure> -->
 
 
 </section>
@@ -99,21 +99,26 @@ Music producers and all who works with audio post-production.
 * Calculation processing must be done in real time when using the product
 * Must not be heavily demanding of the CPU
 
+## Tools
+
+* Github
+* Jira
+
 ## Milestones
 
 | Milestones      | Outcome |   Tasks |
 | ----------- | ----------- | ----------- |
 | ***Milestone 1:*** <p>Conceptualizing</p>      | Determine if the concept/idea/product is possible based on requirements.       | <ul><li>Investigate user pains and needs in the refinemet process in sound post-production.</li><li>Create user stories.</li></ul> |
-| ***Milestone 2:*** <p>Prototyping</p>      | Design and prototype of product.       |
-| ***Milestone 3:*** <p>Initial implementation</p>   | Text        |
-| ***Milestone 4:*** <p>AI</p>      | Title       |
-| ***Milestone 5:*** <p>Sound processing</p>   | Text        |
-| ***Milestone 6:*** <p>UI</p>      | Title       |
-| ***Milestone 7:*** <p>Functionality</p>      | Title       |
-| ***Milestone 8:*** <p>Testing</p>      | Title       |
+| ***Milestone 2:*** <p>Prototyping</p>      | Design and prototype of product.       | <ul><li></li></ul>
+| ***Milestone 3:*** <p>Initial implementation</p>   | Design of software architecture.    | <ul><li></li></ul>
+| ***Milestone 4:*** <p>Detection algorithm</p>      | Implementation of a resonant frequency detection algoritm.       | <ul><li>Research how to most efficiently and accurately detect problematic resonant frequencies and sibliance sounds in sound data.</li><li>Collect testdata of occurrences of resonance in sound.</li></ul>
+| ***Milestone 5:*** <p>Sound processing</p>   | Text        | <ul><li>Research how the problematic resonant frequencies and sibilance sounds can and should be modified.</li><li>Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.</li></ul>
+| ***Milestone 6:*** <p>UI</p>      | Title       | <ul><li></li></ul>
+| ***Milestone 7:*** <p>Functionality</p>      | Title       | <ul><li></li></ul>
+| ***Milestone 8:*** <p>Testing</p>      | Title       | <ul><li></li></ul>
 
 
-
+<!-- 
 #### Milestone 1:
 * Determine if the concept/idea/product is possible.
 #### Milestone 2:
@@ -127,14 +132,12 @@ Music producers and all who works with audio post-production.
 #### Milestone 6: 
 * Implement sound processing that reduce/remove/smoothens a list of given frequencies in amplitude.
 #### Milestone 7: 
-* Implement UI & funcionality
+* Implement UI & funcionality -->
 
 
 ### Tasks
 
 **Analyze**
-
-<ul> <li>Research how to utilize machine learning to detect problematic resonant frequencies and sibilance sounds in sound data.</li><li>Research how the problematic resonant frequencies and sibilance sounds can and should be modified.</li><li>Research how detection and modification of problematic resonant frequencies and sibilance sounds can be applied efficiently in real time.</li><li>Collect datasets of occurrences of resonance in sound.</li></ul>
 
 * Investigate user pains and needs in the refinemet process in sound post-production.
 * Research how to utilize machine learning to detect problematic resonant frequencies and sibilance sounds in sound data.
