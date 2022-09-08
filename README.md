@@ -194,6 +194,14 @@ Implementation of functionality behind the UI to utilize the algorithms       | 
 * Do usability test on target user participants for feedback
 
 ## Proposed iterations and evaluations
+### Iterations
+* Prototype
+* Resonant frequency detection
+* Sound processing on found resonant frequencies
+* Processing algorithm modification
+* Frequency bandpass modification on algorithm
+* UI visualization
+* Pre-sets
 
 ## Timeline
 
