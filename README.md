@@ -16,9 +16,6 @@
 
 ## Outline
 
-* Product
-  * Potential companies and products
-  * Chosen product
 * Problem
   * Background
   * Problem description
@@ -27,28 +24,11 @@
 * Requirements
   * Functional
   * Non-functional
-* Tools
 * Milestones
-* Timeline
-
-## Product
-
-### Potential companies and products
-
-* **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
-
-* **Izotope:** Ozone
-
-* **Oeksound:** soothe2
-
-* **Bose:** Bose Frames
-
-
-### Chosen product
-
-**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
-
-https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
+* Planning
+* Appendix
+  * A: Product
+  * B: Timeline
 
 
 ## Problem
@@ -98,11 +78,6 @@ Music producers and in general all who works with audio in post-production.
 * Calculation processing must be done in real time when using the product
 * Must not be heavily demanding of the CPU
 
-## Tools
-
-* Github
-* Jira
-
 ## Milestones
 
 | Milestones      | Outcome |   Tasks |
@@ -116,22 +91,32 @@ Music producers and in general all who works with audio in post-production.
 | ***Milestone 7:*** <p>Functionality</p>    | Implementation of functionality behind the UI to utilize the algorithms       | <ul><li>Implement detection functionality</li><ul><li>When sound data is provided, run the detection algorithm and adjust the bandpass configuration to a default proposal</li><li>Then run modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul><li>Implement configuration functionality</li><ul><li>Throw events when a control component is updated</li><li>Catch update event and run the modification algorithm with the updated variables</li><li>Save the modified data and variables in the store</li></ul></ul>
 | ***Milestone 8:*** <p>Testing and final adjustments</p>      | Final tests and preparation for deployment to production       | <ul><li>Usability test of the overall product and interview target user participants for feedback</li><li>Run benchmark tests of the algorithm to test the runtime and memory usage</li><li>Use test feedback to plan further milestones if necessary</li></ul>
 
-### Gantt
+## Planning
 ![SMC-0-Gantt](https://user-images.githubusercontent.com/43750048/189130160-63e48fb5-a3dd-4ad3-86ac-267207feb918.jpg)
 
 
+## Appendix
 
-## Proposed iterations and evaluations
-### Iterations
-* I1 Prototype
-* I2 Resonant frequency detection
-* I3 Sound processing on found resonant frequencies
-* I4 Processing algorithm modification
-* I5 Frequency bandpass modification on algorithm
-* I6 UI visualization
-* I7 Pre-sets
+### A: Product
 
-## Timeline
+#### Potential companies and products
+
+* **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
+
+* **Izotope:** Ozone
+
+* **Oeksound:** soothe2
+
+* **Bose:** Bose Frames
+
+
+#### Chosen product
+
+**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
+
+https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
+
+### B: Timeline
 
 
 | Date         | Activities                                                                                                                                                                                                                                                                                                                                                                                           |
