@@ -55,6 +55,13 @@ Music producers and in general all who works with audio in post-production.
 * Less experienced producers have a hard time to get into the the audio refinement process because of the complexity.
 * Listeners may have an unpleasant experience if the audio is not refined correctly.
 
+## Product
+#### Chosen product
+
+**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
+
+https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
+
 ## Requirements
 
 ### Functional
@@ -107,13 +114,6 @@ Music producers and in general all who works with audio in post-production.
 * **Oeksound:** soothe2
 
 * **Bose:** Bose Frames
-
-
-#### Chosen product
-
-**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
-
-https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
 
 ### B: Timeline
 
