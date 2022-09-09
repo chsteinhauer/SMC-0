@@ -72,21 +72,6 @@ Music producers and in general all who works with audio in post-production.
 * Less experienced producers have a hard time to get into the the audio refinement process because of the complexity.
 * Listeners may have an unpleasant experience if the audio is not refined correctly.
 
-### Requirements
-
-### Technologies
-
-
-
-## Product
-### Chosen product
-
-**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
-
-![189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb](https://user-images.githubusercontent.com/43750048/189302824-9cdc790d-7a2d-47e7-9369-57b3d3bbe15a.gif)
-
-
-
 ## Requirements
 
 ### Functional
@@ -109,6 +94,20 @@ Music producers and in general all who works with audio in post-production.
 * Must be intuitive for the user to select and distinguish the range of frequencies that are affected
 * Calculation processing must be done in real time when using the product
 * Must not be heavily demanding of the CPU
+
+### Technologies
+
+
+
+## Product
+### Chosen product
+
+**Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
+
+![189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb](https://user-images.githubusercontent.com/43750048/189302824-9cdc790d-7a2d-47e7-9369-57b3d3bbe15a.gif)
+
+
+
 
 ## Milestones
 
