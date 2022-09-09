@@ -56,7 +56,7 @@ Music producers and in general all who works with audio in post-production.
 * Listeners may have an unpleasant experience if the audio is not refined correctly.
 
 ## Product
-#### Chosen product
+### Chosen product
 
 **Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
 
