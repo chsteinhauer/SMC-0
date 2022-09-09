@@ -62,7 +62,8 @@ Music producers and in general all who works with audio in post-production.
 
 https://user-images.githubusercontent.com/47811509/189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb.mp4
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/43750048/189302619-2657f876-6351-4f43-bd86-a10aefc9f051.gif)
+![189107737-2b37c664-c014-4f3e-986a-cbe0225f4abb](https://user-images.githubusercontent.com/43750048/189302824-9cdc790d-7a2d-47e7-9369-57b3d3bbe15a.gif)
+
 
 
 ## Requirements
