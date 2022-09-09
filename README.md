@@ -72,9 +72,9 @@ Music producers and in general all who works with audio in post-production.
 * Less experienced producers have a hard time to get into the the audio refinement process because of the complexity.
 * Listeners may have an unpleasant experience if the audio is not refined correctly.
 
-## Requirements
+### Requirements
 
-### Functional
+#### Functional
 
 <!-- Something the system must do (will fail if not) -->
 
@@ -85,7 +85,7 @@ Music producers and in general all who works with audio in post-production.
 * Must be able to compare the processed and unprocessed sound
 * Must be able to select from a span of default presets which serves as an entry proposal of resonance soothing in different categories
 
-### Non-functional
+#### Non-functional
 
 <!-- Requirements that describe how the system works -->
 
