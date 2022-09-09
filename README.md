@@ -62,8 +62,8 @@ It is an enervating process for a music producer to detect resonant frequencies 
 #### Tonal balance
 * When working with audio, specifically musical pieces, producers, sound engineers & composers would often like the tonal balance to be evened out across the frequency spectrum. The goal is to not have some segments of the audio be much higher in the mid frequencies in comparision to the lows.
 
-#### Muddiness, boominess & proximity effect
-* Clear muddiness, boominess, and proximity effect
+#### Muddiness & Boominess
+* Muddiness occur in audio when having a variety of sound sources in the lower frequency field clashing with eachother. In addition to muddiness 'boominess' a similar term known as an excessive amount of bass in the sound reproduced by a loudspeaker.
 
 #### User cases
 
