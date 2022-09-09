@@ -54,7 +54,7 @@ It is an enervating process for a music producer to detect resonant frequencies 
 <!--Something SMC related-->
 
 #### Harshness
-* Sound sources like eg. synthesizers often gives an audio output with difficult resonant frequencies. With included effects on top of the synthesizer like distortion, delay, reverb these frequencies might increase in amplitude. These frequencies will take a lot of space in the audio and might irritate the audiennce who is listening. 
+* Sound sources like eg. synthesizers often gives an audio output with difficult resonant frequencies. With included effects on top of the synthesizer like distortion, delay, reverb these frequencies might increase in amplitude. These frequencies will take a lot of space in the audio and might irritate the audience who is listening. 
 
 #### Sibilance 
 * Every vocal recording include lots of sibilants. This is the consonants most likely recognized by the 's', 'ch' & 'z'-sounds inn every language.
