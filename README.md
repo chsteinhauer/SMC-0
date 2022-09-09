@@ -16,24 +16,26 @@
 
 ## Outline
 
-* Problem
+* Introduction
   * Background
   * Problem description
-  * Target user group
-  * User pains
+* Analysis
+  * Problem background
+    * User cases
+  * User research
+    * Target user group
+    * User pains
+* Product
 * Requirements
   * Functional
   * Non-functional
 * Milestones
 * Planning
 * Appendix
-  * A: Product
+  * A: SMC companies and products
   * B: Timeline
 
-
-## Problem
-
-### Background
+## Introduction 
 
 It is an enervating process for a music producer to detect resonant frequencies & ensure that their track sounds good in all sound systems and contexts, and lives up to a certain standard of commercialized music in the music industry.
 
@@ -42,11 +44,26 @@ It is an enervating process for a music producer to detect resonant frequencies 
 
 * How can we create an intuitive VST plugin that detects unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
 
-### Target user group
+
+
+
+## Analysis
+
+### Problem background
+
+<!--Something SMC related-->
+
+#### User cases
+
+<!--Real world and concrete examples where resonants appears-->
+
+### User research
+
+#### Target user group
 
 Music producers and in general all who works with audio in post-production.
 
-### User pains
+#### User pains
 
 * Current tools for finding and removing unwanted resonance frequencies are not particually intuitive.
 * It is a time consuming task to find and remove unwanted frequencies.
@@ -54,6 +71,12 @@ Music producers and in general all who works with audio in post-production.
 * Ensuring the audio is commercializable is complex.
 * Less experienced producers have a hard time to get into the the audio refinement process because of the complexity.
 * Listeners may have an unpleasant experience if the audio is not refined correctly.
+
+### Requirements
+
+### Technologies
+
+
 
 ## Product
 ### Chosen product
@@ -105,9 +128,7 @@ Music producers and in general all who works with audio in post-production.
 
 ## Appendix
 
-### A: Product
-
-#### Potential companies and products
+### A: SMC companies and products
 
 * **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
 
