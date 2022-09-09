@@ -55,6 +55,8 @@ It is an enervating process for a music producer to detect resonant frequencies 
 
 #### User cases
 
+<!--Real world and concrete examples where resonants appears-->
+
 ##### Harshness
 * Sound sources like eg. synthesizers often gives an audio output with difficult resonant frequencies. With included effects on top of the synthesizer like distortion, delay, reverb these frequencies might increase in amplitude. These frequencies will take a lot of space in the audio and might irritate the audience who is listening. 
 
@@ -66,11 +68,6 @@ It is an enervating process for a music producer to detect resonant frequencies 
 
 ##### Muddiness & Boominess
 * Muddiness occur in audio when having a variety of sound sources in the lower frequency field clashing with eachother. In addition to muddiness 'boominess' a similar term known as an excessive amount of bass in the sound reproduced by a loudspeaker.
-
-<!--Real world and concrete examples where resonants appears-->
-
-* Vocal recordings
-* Instrument recordings
 
 ### User research
 
