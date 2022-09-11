@@ -63,6 +63,12 @@ It is an enervating process for a music producer to detect resonant frequencies 
 ##### Sibilance 
 * Every vocal recording include lots of sibilants. This is the consonants most likely recognized by the 's', 'ch' & 'z'-sounds inn every language.
 
+##### Plosives 
+* Another type of unavoidable troublesome consonants are plosives. These are 'p' and 'b' produced by lips, as well as 't', 'd', 'k', 'g' produced by tongue. The effect of those consonants is mitigated with a microphone screen, but it is still audible to some extent in recordings.
+
+##### Breaths 
+* Vocal performances contain moments when a singer takes breath. It is not always audible enough to become a problem. However, quier singing recording may be disrupted by the unwanted breating sounds.
+
 ##### Tonal balance
 * When working with audio, specifically musical pieces, producers, sound engineers & composers would often like the tonal balance to be evened out across the frequency spectrum. The goal is to not have some segments of the audio be much higher in the mid frequencies in comparision to the lows.
 
