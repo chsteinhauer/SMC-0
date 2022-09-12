@@ -175,8 +175,11 @@ Modification of the frequency spectrum would be done by applying case-specific f
 ## Conclusion
 
 The project statement calls for a software solution that helps a user fix several problems while mixing an audio file. The product we presented and back-engineered (Soothe2) is a solution that touches on all the issues we listed.
+
 Detecting the unwanted frequencies in real time is being taken care by the detection algorithm, which uses spectrogram analysis to find peaks in the frequency spectrum over time.
+
 The plugin improves the audio quality by applying case-specific filters, thus removing the detected unwanted frequencies.
+
 Living up to the standards of commercialized music however is the human interaction with the tool. The plugin does not make a decision on what should be deleted from the audio file, this is a decision of the artist.
 
 ## Appendix
