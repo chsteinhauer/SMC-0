@@ -172,6 +172,13 @@ Modification of the frequency spectrum would be done by applying case-specific f
 ## Planning
 <img width="880" alt="SMC-0-Gantt" src="https://user-images.githubusercontent.com/43750048/189137403-6bea0f9c-8dfc-4df6-82bd-b40ee74ca04f.png">
 
+## Conclusion
+
+The project statement calls for a software solution that helps a user fix several problems while mixing an audio file. The product we presented and back-engineered (Soothe2) is a solution that touches on all the issues we listed.
+Detecting the unwanted frequencies in real time is being taken care by the detection algorithm, which uses spectrogram analysis to find peaks in the frequency spectrum over time.
+The plugin improves the audio quality by applying case-specific filters, thus removing the detected unwanted frequencies.
+Living up to the standards of commercialized music however is the human interaction with the tool. The plugin does not make a decision on what should be deleted from the audio file, this is a decision of the artist.
+
 ## Appendix
 
 ### A: SMC companies and products
