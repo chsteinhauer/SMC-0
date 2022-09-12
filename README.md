@@ -42,7 +42,7 @@ It is an enervating process for a music producer to detect resonant frequencies 
 
 ### Problem description
 
-* How can we create an intuitive VST plugin that detects unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
+* How can we create an intuitive VST plugin that help in detecting unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
 
 
 
@@ -56,6 +56,24 @@ It is an enervating process for a music producer to detect resonant frequencies 
 #### User cases
 
 <!--Real world and concrete examples where resonants appears-->
+
+##### Harshness
+* Sound sources like eg. synthesizers often gives an audio output with difficult resonant frequencies. With included effects on top of the synthesizer like distortion, delay, reverb these frequencies might increase in amplitude. These frequencies will take a lot of space in the audio and might irritate the audience who is listening. 
+
+##### Sibilance 
+* Every vocal recording include lots of sibilants. This is the consonants most likely recognized by the 's', 'ch' & 'z'-sounds in every language.
+
+##### Plosives 
+* Another type of unavoidable troublesome consonants are plosives. These are 'p' and 'b' produced by lips, as well as 't', 'd', 'k', 'g' produced by tongue. The effect of those consonants is mitigated with a microphone screen, but it is still audible to some extent in recordings.
+
+##### Breaths 
+* Vocal performances contain moments when a singer takes breath. It is not always audible enough to become a problem. However, quier singing recording may be disrupted by the unwanted breating sounds.
+
+##### Tonal balance
+* When working with audio, specifically musical pieces, producers, sound engineers & composers would often like the tonal balance to be evened out across the frequency spectrum. The goal is *not* have some segments of the audio be much higher in eg. the mid frequencies in comparision to the lows.
+
+##### Muddiness & Boominess
+* Muddiness occur in audio when having a variety of sound sources in the lower frequency field clashing with eachother. In addition to muddiness 'boominess' is a similar term known as an excessive amount of bass in the sound reproduced by a loudspeaker.
 
 ### User research
 
@@ -73,6 +91,27 @@ Music producers and in general all who works with audio in post-production.
 * Listeners may have an unpleasant experience if the audio is not refined correctly.
 
 ### Requirements
+
+#### Functional
+
+<!-- Something the system must do (will fail if not) -->
+
+* Must be able to detect problematic resonant frequencies in sound data
+* Must be able to smoothen/remove the detected resonant frequencies
+* Must be able to target only the undesirable overtones when modifying resonant frequencies
+* User must be able to configure how the algorithm modifies the target resonants
+* Must be able to compare the processed and unprocessed sound
+* Must be able to select from a span of default presets which serves as an entry proposal of resonance soothing in different categories
+
+#### Non-functional
+
+<!-- Requirements that describe how the system works -->
+
+* Must be very user friendly - a user must intuitively understand the basic functionality when using the product for the first time
+* Must be fast and reliable, response delay must be brought to a minimum for a better user experience
+* Must be intuitive for the user to select and distinguish the range of frequencies that are affected
+* Calculation processing must be done in real time when using the product
+* Must not be heavily demanding of the CPU
 
 ### Technologies
 
@@ -114,28 +153,6 @@ For detecting resonant frequencies we want to use peak detection, both in time a
 
 
 
-## Requirements
-
-### Functional
-
-<!-- Something the system must do (will fail if not) -->
-
-* Must be able to detect problematic resonant frequencies in sound data
-* Must be able to smoothen/remove the detected resonant frequencies
-* Must be able to target only the undesirable overtones when modifying resonant frequencies
-* User must be able to configure how the algorithm modifies the target resonants
-* Must be able to compare the processed and unprocessed sound
-* Must be able to select from a span of default presets which serves as an entry proposal of resonance soothing in different categories
-
-### Non-functional
-
-<!-- Requirements that describe how the system works -->
-
-* Must be very user friendly - a user must intuitively understand the basic functionality when using the product for the first time
-* Must be fast and reliable, response delay must be brought to a minimum for a better user experience
-* Must be intuitive for the user to select and distinguish the range of frequencies that are affected
-* Calculation processing must be done in real time when using the product
-* Must not be heavily demanding of the CPU
 
 ## Milestones
 
@@ -174,6 +191,5 @@ For detecting resonant frequencies we want to use peak detection, both in time a
 | *05/09/2022* | We changed our product to **soothe2** by Oeksound, as we concluded that Ozone was too complex regarding all its features that are outside our scope. **soothe2** attempts to solve the same problem, but is much simpler in its approach, and only focus on the refinement of ressonance in the mastering process. Furthermore, we brainstormed pains and gains and created requirements from these. |
 | *07/09/2022* | We refined the requirements. Planning the project by breaking it down into milestones and tasks. This was send to our supervisor for feedback.                                                                                                                                                                                                                                                       |
 | *08/09/2022* | Prioritized the milestones and time estimated tasks. This was setup in a gannt diagram. Here we reprioritized tasks also when we had a better overview of the milestones.                                                                                                                                                                                                                            |
-| *09/09/2022* | stuff                                                                                                                                                                                                                                                                                                                                                                                                |
-
-
+| *09/09/2022* | We used the given feedback from the TA and incorporated the changes in our documentation. This included the addition of user-cases                                                                                                                                                                                                                                                                                                                                                                                                 |
+| *12/09/2022* |                                                                                                                                                                                                                                                                                                                                                                                                  |
