@@ -42,7 +42,7 @@ It is an enervating process for a music producer to detect resonant frequencies 
 
 ### Problem description
 
-* How can we create an intuitive VST plugin that detects unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
+* How can we create an intuitive VST plugin that help in detecting unwanted resonant frequencies and removes them in realtime, ensuring better audio quality on sound systems and lives up to a certain standard of commercialized music in the music industry?
 
 
 
@@ -164,6 +164,6 @@ Music producers and in general all who works with audio in post-production.
 | *05/09/2022* | We changed our product to **soothe2** by Oeksound, as we concluded that Ozone was too complex regarding all its features that are outside our scope. **soothe2** attempts to solve the same problem, but is much simpler in its approach, and only focus on the refinement of ressonance in the mastering process. Furthermore, we brainstormed pains and gains and created requirements from these. |
 | *07/09/2022* | We refined the requirements. Planning the project by breaking it down into milestones and tasks. This was send to our supervisor for feedback.                                                                                                                                                                                                                                                       |
 | *08/09/2022* | Prioritized the milestones and time estimated tasks. This was setup in a gannt diagram. Here we reprioritized tasks also when we had a better overview of the milestones.                                                                                                                                                                                                                            |
-| *09/09/2022* | stuff                                                                                                                                                                                                                                                                                                                                                                                                |
+| *09/09/2022* | We used the given feedback from the TA and incorporated the changes in our documentation. This included the addition of user-cases                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 
