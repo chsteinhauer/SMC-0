@@ -76,6 +76,33 @@ Music producers and in general all who works with audio in post-production.
 
 ### Technologies
 
+<!-- Techniques necessary for peak detection/suppression, as well as real time audio. 
+
+I would expect something like types of filters (both by application (Lp, BP, etc.) and topology (Biquad, Butterworth, Chebyshev, etc), as well as peak detection (both it time and frequency domain). 
+
+If those terms are a bit of a nebula, it’s OK, but that’s exactly why you would want to have an analysis section dedicated to them-->
+
+We would like to explore some techniques necessary to meet the requirements described in the former section. The main sound processing components of the product is the two algorithms that will perform resonant detection and modification. 
+
+#### **Detection**
+
+For detecting resonant frequencies we want to use peak detection, both in time and frequency domain. 
+
+
+#### **Modification**
+
+
+<!--Peak detection (both it time and frequency domain)-->
+
+
+<!--Peak suppression-->
+
+
+<!--Filters application (Lp, BP, etc.)-->
+
+
+<!--Filters topology (Biquad, Butterworth, Chebyshev, etc)-->
+
 
 
 ## Product
