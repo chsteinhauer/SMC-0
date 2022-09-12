@@ -61,7 +61,7 @@ It is an enervating process for a music producer to detect resonant frequencies 
 * Sound sources like eg. synthesizers often gives an audio output with difficult resonant frequencies. With included effects on top of the synthesizer like distortion, delay, reverb these frequencies might increase in amplitude. These frequencies will take a lot of space in the audio and might irritate the audience who is listening. 
 
 ##### Sibilance 
-* Every vocal recording include lots of sibilants. This is the consonants most likely recognized by the 's', 'ch' & 'z'-sounds inn every language.
+* Every vocal recording include lots of sibilants. This is the consonants most likely recognized by the 's', 'ch' & 'z'-sounds in every language.
 
 ##### Plosives 
 * Another type of unavoidable troublesome consonants are plosives. These are 'p' and 'b' produced by lips, as well as 't', 'd', 'k', 'g' produced by tongue. The effect of those consonants is mitigated with a microphone screen, but it is still audible to some extent in recordings.
@@ -70,10 +70,10 @@ It is an enervating process for a music producer to detect resonant frequencies 
 * Vocal performances contain moments when a singer takes breath. It is not always audible enough to become a problem. However, quier singing recording may be disrupted by the unwanted breating sounds.
 
 ##### Tonal balance
-* When working with audio, specifically musical pieces, producers, sound engineers & composers would often like the tonal balance to be evened out across the frequency spectrum. The goal is to not have some segments of the audio be much higher in the mid frequencies in comparision to the lows.
+* When working with audio, specifically musical pieces, producers, sound engineers & composers would often like the tonal balance to be evened out across the frequency spectrum. The goal is *not* have some segments of the audio be much higher in eg. the mid frequencies in comparision to the lows.
 
 ##### Muddiness & Boominess
-* Muddiness occur in audio when having a variety of sound sources in the lower frequency field clashing with eachother. In addition to muddiness 'boominess' a similar term known as an excessive amount of bass in the sound reproduced by a loudspeaker.
+* Muddiness occur in audio when having a variety of sound sources in the lower frequency field clashing with eachother. In addition to muddiness 'boominess' is a similar term known as an excessive amount of bass in the sound reproduced by a loudspeaker.
 
 ### User research
 
