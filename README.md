@@ -130,6 +130,8 @@ For detecting resonant frequencies we want to use peak detection, both in time a
 
 #### **Modification**
 
+Modification of the frequency spectrum would be done by applying case-specific filters. The algorithm would choose a filter based on the user case. For example, getting rid of muddiness and boominess in the lower frequency region requires application of a high pass filter. Another case would be getting rid of sibilance and breaths. In this case, notch filers would have to be applied to appropriate frequencies.
+
 
 <!--Peak detection (both it time and frequency domain)-->
 
