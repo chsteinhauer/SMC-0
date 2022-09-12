@@ -125,7 +125,7 @@ We would like to explore some techniques necessary to meet the requirements desc
 
 #### **Detection**
 
-For detecting resonant frequencies we want to use peak detection, both in time and frequency domain. 
+For detecting resonant frequencies we want to use peak detection, both in time and frequency domain. To achieve this we could implement spectrogram analysis.
 
 
 #### **Modification**
