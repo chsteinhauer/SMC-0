@@ -25,6 +25,7 @@
   * User research
     * Target user group
     * User pains
+  * Technology
 * Product
 * Requirements
   * Functional
@@ -32,8 +33,9 @@
 * Milestones
 * Planning
 * Appendix
-  * A: SMC companies and products
-  * B: Timeline
+  * SMC companies and products
+  * Proposed iterations and evaluations
+  * Timeline
 
 ## Introduction 
 
@@ -147,7 +149,6 @@ Modification of the frequency spectrum would be done by applying case-specific f
 
 
 ## Product
-### Chosen product
 
 **Soothe2:** A VST plugin (created by the finnish company *Oeksound*) that removes resonance and harshness from soundsources in realtime and makes the mixing process easier for music producers in the final stages of their workflow. 
 
@@ -174,7 +175,7 @@ Modification of the frequency spectrum would be done by applying case-specific f
 
 ## Appendix
 
-### A: SMC companies and products
+### SMC companies and products
 
 * **Brüel & Kjær:** A lot of specialized software in acoustic analysis.
 
@@ -184,7 +185,24 @@ Modification of the frequency spectrum would be done by applying case-specific f
 
 * **Bose:** Bose Frames
 
-### B: Timeline
+
+
+
+### Proposed iterations and evalutations
+
+* In this project, an iteration is defined as a milestone
+
+* Before a milestone kick-off, a pre-meeting should prepare the task board, initiate time estimation for each task and assign the tasks
+
+* At the end of a milestone we evaluate if the tasks has been completed satisfactorily based on the process and testing results. The following points must be taken into account in the evalutation:
+  * If some tasks were not finished because of underestimation of task size, they must be put forward into next milestone
+  * If some tasks could not be finished within current requirements, we should either
+    * Reconsider the requirements, or
+    * Redefine the solution outline of the task
+  * If some tasks were finished, but not in an ideal fashion - consider if we need to define tasks for future refinement
+  * If there were any problems encountered that could block future tasks/milestones - consider if anything should be redefined or estimated
+
+### Timeline
 
 
 | Date         | Activities                                                                                                                                                                                                                                                                                                                                                                                           |
